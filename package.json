@@ -1,0 +1,25 @@
+{
+  "name": "eslint-prettier-husky",
+  "version": "1.0.0",
+  "description": "eslint ,prettier, git hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhutao315/eslint-prettier-husky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhutao315/eslint-prettier-husky/issues"
+  },
+  "homepage": "https://github.com/zhutao315/eslint-prettier-husky#readme",
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "eslint": "^7.30.0"
+  }
+}
