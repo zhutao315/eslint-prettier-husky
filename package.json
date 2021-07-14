@@ -1,5 +1,5 @@
 {
-  "name": "eslint-prettier-husky",
+  "name": "eslint-config-eslint-prettier-husky",
   "version": "1.0.0",
   "description": "eslint ,prettier, git hooks",
   "main": "index.js",
@@ -17,9 +17,33 @@
   },
   "homepage": "https://github.com/zhutao315/eslint-prettier-husky#readme",
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0"
   },
   "dependencies": {
-    "eslint": "^7.30.0"
+    "babel-eslint": "^10.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-testing-library": "^4.9.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^4",
+    "eslint-plugin-react": "^7.20.3",
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
   }
 }
